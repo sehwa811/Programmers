@@ -1,6 +1,10 @@
+## ❌
+
 - DP는 메모이제이션을 사용하는 기법이다
   - 이때 어떤 것을 메모할 것이냐 가 중요!
 
+
+### 풀이
 ```javascript
 const calculateFuncs = [(a, b) => a + b, (a, b) => a * b, (a, b) => a - b, (a, b) => Math.floor(a / b)];
 
@@ -47,7 +51,6 @@ function solution(N, number) {
 ### 몰랐던 메소드
 - `String.repeat(n)` : String을 n번 반복하여 만든 새 문자열을 반환한다
   - 0을 넣으면 빈 문자열 ''을 반환한다
-
 
 
 ```javascript
