@@ -66,3 +66,5 @@ function solution(n, k) {
 }
 ```
 - __문자열 앞에 +를 붙여주면 숫자가 된다! `parseInt`를 쓸 필요 없어진다__
+- 만약 n이 문자열이었다면 `paresInt(문자열, 원하는 진수)` 을 이용해도 된다
+- 문자열을 숫자로 변환 `Number(str)`
